@@ -1,7 +1,7 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Aurora from '../components/Aurora.vue'
 </script>
 
 <template>
-    <TheWelcome />
+    <Aurora />
 </template>
