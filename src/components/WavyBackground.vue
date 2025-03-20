@@ -81,7 +81,7 @@ export default {
         if (this.ctx) {
             // 设置固定尺寸 100*100
             const fixedWidth = 100;
-            const fixedHeight = 100;
+            const fixedHeight = 24;
             const pixelRatio = 2;
             
             // 设置显示尺寸

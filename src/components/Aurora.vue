@@ -125,7 +125,8 @@ export default {
   position: absolute;
   z-index: 0;
   width: 100px;
-  height: 100px;
+  height: 24px;
+  left: 12px;
 }
 .module {
   position: relative;
