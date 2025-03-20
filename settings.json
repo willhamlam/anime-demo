@@ -1,0 +1,9 @@
+{
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "One Hunter Flexoki Light",
+  "workbench.preferredDarkColorTheme": "One Hunter Flexoki Dark",
+  "window.zoomLevel": 1,
+  "tree.indent": 16,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always"
+}
