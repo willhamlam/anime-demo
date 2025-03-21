@@ -3,33 +3,23 @@
     <div class="profile-wrapper">
       <div class="module-wrapper">
         <div class="module-blocks">
-        <div class="module">
-          <img src="@/assets/windows.svg" alt="">
-        </div>
-        <div class="module">
-          <img src="@/assets/rx_flag_us.svg" alt="">
-        </div>
-        <div class="module">
-          <img src="@/assets/rx_site_amazon.svg" alt="">
-        </div>
-        <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1"></WavyBackground>
-        </div>
-      </div>
-      <p class="profile-name">Untitle profile</p>
-    </div>
-    <div class="profile-wrapper">
-      <div class="module-wrapper">
-        <div class="module-blocks">
-        <div class="module">
-          <img src="@/assets/windows.svg" alt="">
-        </div>
-        <div class="module">
-          <img src="@/assets/rx_flag_hk.svg" alt="">
-        </div>
-        <div class="module">
-          <img src="@/assets/rx_site_amazon.svg" alt="">
-        </div>
-        <div class="dashline"></div>
+          <div class="module">
+            <img src="@/assets/windows.svg" alt="" />
+          </div>
+          <div class="module">
+            <img src="@/assets/rx_flag_us.svg" alt="" />
+          </div>
+          <div class="module">
+            <img src="@/assets/rx_site_amazon.svg" alt="" />
+          </div>
+          <WavyBackground
+            class="waveContainer"
+            waveWidth="1.2"
+            blur="0"
+            speed="fast"
+            waveOpacity="1"
+            :animate="true"
+          ></WavyBackground>
         </div>
       </div>
       <p class="profile-name">Untitle profile</p>
@@ -37,17 +27,16 @@
     <div class="profile-wrapper">
       <div class="module-wrapper">
         <div class="module-blocks">
-        <div class="module">
-          <img src="@/assets/windows.svg" alt="">
-        </div>
-        <!-- <div class="module">
-          <img src="@/assets/rx_flag_hk.svg" alt="">
-        </div> -->
-        <div class="module">
-          <img src="@/assets/rx_site_facebook.svg" alt="">
-        </div>
-        <div class="dashline"></div>
-        <!-- <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1"></WavyBackground> -->
+          <div class="module">
+            <img src="@/assets/windows.svg" alt="" />
+          </div>
+          <div class="module">
+            <img src="@/assets/rx_flag_hk.svg" alt="" />
+          </div>
+          <div class="module">
+            <img src="@/assets/rx_site_amazon.svg" alt="" />
+          </div>
+          <div class="dashline"></div>
         </div>
       </div>
       <p class="profile-name">Untitle profile</p>
@@ -55,34 +44,17 @@
     <div class="profile-wrapper">
       <div class="module-wrapper">
         <div class="module-blocks">
-        <div class="module">
-          <img src="@/assets/windows.svg" alt="">
-        </div>
-        <!-- <div class="module">
+          <div class="module">
+            <img src="@/assets/windows.svg" alt="" />
+          </div>
+          <!-- <div class="module">
           <img src="@/assets/rx_flag_hk.svg" alt="">
         </div> -->
-        <div class="module">
-          <img src="@/assets/rx_site_shopify.svg" alt="">
-        </div>
-        <div class="dashline"></div>
-        <!-- <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1"></WavyBackground> -->
-        </div>
-      </div>
-      <p class="profile-name">Untitle profile</p>
-    </div>
-    <div class="profile-wrapper">
-      <div class="module-wrapper">
-        <div class="module-blocks">
-        <div class="module">
-          <img src="@/assets/android.svg" alt="">
-        </div>
-        <div class="module router">
-          <img src="@/assets/rx_ic_route2.svg" alt="">
-        </div>
-        <div class="module">
-          <img src="@/assets/rx_site_reddit.svg" alt="">
-        </div>
-        <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1"></WavyBackground>
+          <div class="module">
+            <img src="@/assets/rx_site_facebook.svg" alt="" />
+          </div>
+          <div class="dashline"></div>
+          <!-- <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1" :animate="true"></WavyBackground> -->
         </div>
       </div>
       <p class="profile-name">Untitle profile</p>
@@ -90,13 +62,62 @@
     <div class="profile-wrapper">
       <div class="module-wrapper">
         <div class="module-blocks">
-        <div class="module">
-          <img src="@/assets/android.svg" alt="">
+          <div class="module">
+            <img src="@/assets/windows.svg" alt="" />
+          </div>
+          <!-- <div class="module">
+          <img src="@/assets/rx_flag_hk.svg" alt="">
+        </div> -->
+          <div class="module">
+            <img src="@/assets/rx_site_shopify.svg" alt="" />
+          </div>
+          <div class="dashline"></div>
+          <!-- <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1" :animate="true"></WavyBackground> -->
         </div>
-        <div class="module">
-          <img src="@/assets/rx_site_facebook.svg" alt="">
+      </div>
+      <p class="profile-name">Untitle profile</p>
+    </div>
+    <div class="profile-wrapper">
+      <div class="module-wrapper">
+        <div class="module-blocks">
+          <div class="module">
+            <img src="@/assets/android.svg" alt="" />
+          </div>
+          <div class="module router">
+            <img src="@/assets/rx_ic_route2.svg" alt="" />
+          </div>
+          <div class="module">
+            <img src="@/assets/rx_site_reddit.svg" alt="" />
+          </div>
+          <WavyBackground
+            class="waveContainer"
+            waveWidth="1.2"
+            blur="0"
+            speed="fast"
+            waveOpacity="1"
+            :animate="false"
+          ></WavyBackground>
         </div>
-        <WavyBackground class="waveContainer" waveWidth="1.2" blur="0" speed="fast" waveOpacity="1"></WavyBackground>
+      </div>
+      <p class="profile-name">Untitle profile</p>
+    </div>
+    <div class="profile-wrapper">
+      <div class="module-wrapper">
+        <div class="module-blocks">
+          <div class="module">
+            <img src="@/assets/android.svg" alt="" />
+          </div>
+          <div class="module">
+            <img src="@/assets/rx_site_facebook.svg" alt="" />
+          </div>
+          <WavyBackground
+            class="waveContainer"
+            waveWidth="1.2"
+            blur="0"
+            speed="fast"
+            waveOpacity="1"
+            :animate="true"
+          ></WavyBackground>
         </div>
       </div>
       <p class="profile-name">Untitle profile</p>
@@ -109,9 +130,9 @@ import WavyBackground from "@/components/WavyBackground.vue";
 
 export default {
   components: {
-    WavyBackground
-  }
-}
+    WavyBackground,
+  },
+};
 </script>
 
 <style>
@@ -140,12 +161,19 @@ export default {
   gap: var(--spacing-sm, 4px);
 
   border-radius: 4px;
-  border: 0.5px solid var(--Colors-Border-border-action-secondary, #C7CDD1);
-  background: var(--Colors-Background-bg-action-secondary, #FFF);
-  box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.02), 0px 1px 1px 0px rgba(0, 0, 0, 0.06);
+  border: 0.5px solid var(--Colors-Border-border-action-secondary, #c7cdd1);
+  background: var(--Colors-Background-bg-action-secondary, #fff);
+  box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.02),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.06);
   &.router {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 15%,
+      rgba(255, 255, 255, 1) 85%,
+      rgba(255, 255, 255, 0) 100%
+    );
     border: 0 none;
     box-shadow: none;
     img {
