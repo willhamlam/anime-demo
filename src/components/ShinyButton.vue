@@ -28,7 +28,7 @@
     </Motion>
     <Motion 
       as="span"
-      class="absolute inset-0 z-10 block rounded-[inherit] bg-[linear-gradient(-75deg,hsl(var(--primary)/10%)_calc(var(--x)+20%),hsl(var(--primary)/50%)_calc(var(--x)+25%),hsl(var(--primary)/10%)_calc(var(--x)+100%))] p-px"
+      class="absolute inset-0 z-10 block rounded-[inherit] bg-[linear-gradient(-75deg,hsl(var(--primary)/0%)_calc(var(--x)+20%),hsl(var(--primary)/50%)_calc(var(--x)+25%),hsl(var(--primary)/0%)_calc(var(--x)+100%))] p-px"
       :style="{
         mask: 'linear-gradient(rgb(0,0,0), rgb(0,0,0)) content-box,linear-gradient(rgb(0,0,0), rgb(0,0,0))',
         maskComposite: 'exclude'
@@ -67,4 +67,4 @@ const buttonRef = ref(null);
 button {
   --x: 100%;
 }
-</style> 
+</style>
