@@ -1,10 +1,9 @@
 <script setup>
-import Aurora from '../components/Aurora.vue'
-// import FontAnime from '../components/FontAnime.vue'
-// import MotionAnime from './MotionAnime.vue'
-import Background from '../components/Background.vue'
+import ShinyButton from '@/components/ShinyButton.vue';
 </script>
 
 <template>
-    <Aurora />
+  <div class="flex h-80 items-center justify-center">
+    <ShinyButton>Shiny Button</ShinyButton>
+  </div>
 </template>
