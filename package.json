@@ -18,7 +18,7 @@
     "postprocessing": "^6.37.1",
     "simplex-noise": "^4.0.3",
     "three": "^0.174.0",
-    "three-globe": "^2.42.2",
+    "three-globe": "^2.42.3",
     "vue": "^3.5.13",
     "vue-router": "^4.4.5"
   },

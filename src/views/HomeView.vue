@@ -1,12 +1,15 @@
 <script setup>
-import Aurora from "../components/Aurora.vue";
-import GithubGlobe from "../components/GithubGlobe.vue";
-// import FontAnime from '../components/FontAnime.vue'
-// import MotionAnime from './MotionAnime.vue'
-import Background from "../components/Background.vue";
+import GithubGlobe from '@/components/GithubGlobe.vue';
+// import ShinyButton from '@/components/ShinyButton.vue';
+
+const globeConfig = {
+  globeColor: '#fff', // 灰色
+  polygonColor: '#000', // 黑色
+};
 </script>
 
 <template>
-  <Aurora />
-  <GithubGlobe />
+  <div class="flex h-screen items-center justify-center">
+    <GithubGlobe :globe-config="globeConfig" class="w-[1000px] h-[1000px]" />
+  </div>
 </template>
