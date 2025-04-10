@@ -7,18 +7,21 @@ import MotionLayout from "@/components/motions/motionLayout.vue";
 import MotionLayout2 from "@/components/motions/motionLayout2.vue";
 import MotionApps from "@/components/motions/motionApps.vue";
 import MotionScroll from "@/components/motions/motionScroll.vue";
+import MotionOverlay from "@/components/motions/overlay.vue";
 </script>
 
 <template>
   <div class="container">
-    <MotionScroll />
+    <MotionOverlay />
   </div>
 </template>
 
 <style>
 .container {
-  /* width: 100%;
-  height: 100%; */
-  background-color: #0d0d0d;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
