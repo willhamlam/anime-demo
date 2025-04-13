@@ -17,15 +17,14 @@
           >
             <img src="@/assets/lock.png" alt="" class="lock-img" />
           </motion.div>
-
           <div class="globe-atmosphere"></div>
           <Particles
-            :density="200"
-            color="#004AB1"
-            :size="1.4"
+            :density="300"
+            color="#ffffff"
+            :size="1.8"
             :speed="0.2"
             class="globe-particles"
-            :minOpacity="0.5"
+            :minOpacity="0.6"
           />
           <motion.div
             :initial="{ scale: isLocked ? 0.9 : 1 }"
@@ -72,8 +71,10 @@ const isLocked = ref(true);
     width: 100%;
     height: 400px;
     bottom: -20%;
-    -webkit-mask-image: radial-gradient(50% 50%, #000000, transparent 85%);
-    mask-image: radial-gradient(50% 50%, #000000, transparent 85%);
+    z-index: 999;
+    mix-blend-mode: hard-light;
+    -webkit-mask-image: radial-gradient(50% 60%, #000000, transparent 70%);
+    mask-image: radial-gradient(50% 60%, #000000, transparent 70%);
   }
   .globe-atmosphere {
     position: absolute;
@@ -94,6 +95,8 @@ const isLocked = ref(true);
     background-color: #ffffff;
     border-radius: 100%;
     opacity: 1;
+    z-index: 998;
+    box-shadow: rgb(204 211 255) 0px -10px 50px 1px;
   }
   .globe {
     position: absolute;
@@ -109,9 +112,8 @@ const isLocked = ref(true);
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
       rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-      rgb(255, 255, 255) 0px 6px 20px 0px inset,
-      rgb(204 211 255) 0px -10px 50px 1px;
-    z-index: 4;
+      rgb(255, 255, 255) 0px 6px 20px 0px inset;
+    z-index: 1000;
   }
   .app-img {
     width: 100%;
