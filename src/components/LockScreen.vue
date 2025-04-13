@@ -74,7 +74,11 @@ p {
   height: 150px;
 }
 .particles-mask {
+  /* autoprefixer: ignore next */
+  /* stylelint-disable-next-line */
   mask-image: radial-gradient(50% 50%, white, transparent 85%);
+  /* autoprefixer: ignore next */
+  /* stylelint-disable-next-line */
   -webkit-mask-image: radial-gradient(50% 50%, white, transparent 85%);
 }
 .light-box {

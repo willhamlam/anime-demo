@@ -9,11 +9,13 @@ import MotionApps from "@/components/motions/motionApps.vue";
 import MotionScroll from "@/components/motions/motionScroll.vue";
 import LockScreen from "@/components/LockScreen.vue";
 import LockScreen2 from "@/components/LockScreen2.vue";
+import MotionOverlay from "@/components/motions/overlay.vue";
 </script>
 
 <template>
   <div class="container">
-    <LockScreen2 />
+    <!-- <LockScreen2 /> -->
+    <MotionOverlay />
   </div>
 </template>
 
@@ -21,7 +23,6 @@ import LockScreen2 from "@/components/LockScreen2.vue";
 .container {
   width: 100%;
   height: 100%;
-  /* background-color: #0d0d0d; */
   background-color: #fff;
   display: flex;
   justify-content: center;
